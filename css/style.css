@@ -236,7 +236,7 @@ body {
 }
 @media only screen and (max-width: 680px) {
   .features__img {
-    width: 90%;
+    width: 80%;
     position: relative;
     top: 5rem;
   }
