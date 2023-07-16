@@ -229,11 +229,6 @@ body {
     margin-left: 8rem;
   }
 }
-@media only screen and (max-width: 480px) {
-  .features {
-    margin-left: -4rem;
-  }
-}
 .features__text {
   margin-top: 2.2rem;
   color: #ffffff;
