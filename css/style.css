@@ -738,6 +738,11 @@ body {
   column-gap: 5rem;
 }
 @media only screen and (max-width: 480px) {
+  .elements {
+    column-gap: 0;
+  }
+}
+@media only screen and (max-width: 480px) {
   .elements__logo {
     display: none;
   }
