@@ -4,438 +4,399 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Test-project</title>
+    <title>Document</title>
   </head>
   <body>
     <div class="container">
-      <div class="sidebar">
-        <div class="hamburger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
       <div class="header">
         <a href="#" class="logo"
-          ><img src="icons/logo.png" alt="logo" class="logo__img-display"
+          ><img src="img/logo.svg" alt="logo" class="header__logo"
         /></a>
-        <div class="details">
-          <div class="details__list">
-            <div class="details__item">
-              <a href="#" class="logo"
-                ><img src="icons/logo.png" alt="logo" class="logo__img"
-              /></a>
-            </div>
-            <div class="details__item">
-              <img src="icons/cursor-icon.png" alt="cursor" />
-              <p class="details__address">
-                394033, г. Воронеж, Ленинский проспект, <br />
-                119л, пом.1, офис 35а
-              </p>
-            </div>
-            <div class="details__item">
-              <img src="icons/phone-icon.png" alt="phone" />
-              <p class="details__phone">+7 900-962-75-55</p>
-            </div>
-          </div>
-        </div>
         <div class="nav">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="#" class="nav__link">ГЛАВНАЯ</a>
+              <a href="#" class="nav__link">Производство</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">УСЛУГИ</a>
+              <a href="#" class="nav__link">Продукция</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">НАШИ ПРОЕКТЫ</a>
+              <a href="#" class="nav__link">Оплата/Доставка</a>
             </li>
             <li class="nav__item">
-              <a href="#" class="nav__link">КОНТАКТЫ</a>
+              <a href="#" class="nav__link">Блог</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Контакты</a>
             </li>
           </ul>
         </div>
-      </div>
-      <div class="banner">
-        <div class="banner__info">
-          <h1 class="title-1">
-            Лидер черноземья по <br />
-            комплексному техническому <br />
-            обслуживанию
-          </h1>
-          <h3 class="title-2">Реализовано более 600 объектов</h3>
-          <button class="banner__btn">
-            запросить коммерческое предложение
-          </button>
-          <p class="banner__text">*работаем только с юридическими лицами</p>
+        <hr class="header__hr" />
+        <img src="icons/vk-icon.png" alt="icon" class="header__icon-1" />
+        <hr class="header__hr" />
+        <div class="header__icon-2">
+          <img src="icons/man-icon.png" alt="icon" class="icon" />
+          <p class="header__text">Войти</p>
+        </div>
+        <div class="header__icon-3">
+          <img src="icons/bag-icon.png" alt="icon" class="icon" />
+          <p class="header__text">Корзина</p>
         </div>
       </div>
-      <h2 class="cards__title title-1">Наши услуги</h2>
-      <div class="cards">
-        <div class="card">
-          <div class="wrapper">
-            <img src="img/service-1.png" class="card__img" alt="img" />
-            <div class="card__info">
-              <h4 class="title-4">Техническое обслуживание</h4>
-              <p class="card__text">
-                зданий сооружений, <br />
-                инженерных сетей
-              </p>
-            </div>
+      <div class="main">
+        <div class="main-nav">
+          <h1 class="title-1 title-1_yellow main-nav__title">Профиль</h1>
+          <div class="main-nav__menu">
+            <p class="main-nav__text main-nav__text-1" id="nav-1">
+              Мой профиль
+            </p>
+            <hr class="main-nav__hr" />
+            <p class="bag main-nav__text" id="nav-2">Корзина</p>
+            <hr class="main-nav__hr" />
+            <p class="main-nav__text" id="nav-3">Мои заказы</p>
+            <hr class="main-nav__hr" />
+            <p class="main-nav__text" id="nav-4">Обратная связь</p>
           </div>
+          <p class="main-nav__text-yellow">Выйти</p>
         </div>
-
-        <div class="card">
-          <div class="wrapper">
-            <img src="img/service-2.png" class="card__img" alt="img" />
-            <div class="card__info">
-              <h4 class="title-4">Техническое обслуживание</h4>
-              <p class="card__text">
-                торгового, холодильного <br />
-                оборудования
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="wrapper">
-            <img src="img/service-3.png" class="card__img" alt="img" />
-            <div class="card__info">
-              <h4 class="title-4">Техническое обслуживание</h4>
-              <p class="card__text">
-                оборудования пищевого <br />
-                производства
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="wrapper">
-            <img src="img/service-4.png" class="card__img" alt="img" />
-            <div class="card__info">
-              <h4 class="title-4">Ремонт, благоустройство</h4>
-              <p class="card__text">
-                прилегающих <br />
-                территорий
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="wrapper">
-            <img src="img/service-5.png" class="card__img" alt="img" />
-            <div class="card__info">
-              <h4 class="title-4">Ремонт</h4>
-              <p class="card__text">
-                зданий сооружений, <br />
-                инженерных сетей
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="wrapper">
-            <img src="img/service-6.png" class="card__img" alt="img" />
-            <div class="card__info">
-              <h4 class="title-4">Клинниговые услуги</h4>
-              <p class="card__text">
-                уборка коммерческих объектов <br />
-                всех типов
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="buildings">
-        <div class="buildings__title">
-          <h2 class="buildings__title title-3">
-            Обслуживаем <br />
-            <span class="title-3_sea-light">все виды</span> <br />
-            недвижимости
-          </h2>
-        </div>
-        <div class="buildings__title-display">
-          <h2 class="buildings__title-display title-3">
-            Обслуживаем
-            <span class="title-3_sea-light">все виды</span> недвижимости
-          </h2>
-        </div>
-        <div class="building-box">
-          <div class="building-item">
-            <img src="img/building-1.png" alt="img" class="building__img" />
-            <p class="building-item__text">ТОРГОВЫЕ СЕТИ</p>
-          </div>
-          <div class="building-item">
-            <img src="img/building-2.png" alt="img" class="building__img" />
-            <p class="building-item__text">БИЗНЕС ЦЕНТРЫ</p>
-          </div>
-          <div class="building-item">
-            <img src="img/building-3.png" alt="img" class="building__img" />
-            <p class="building-item__text">ТОРГОВЫЕ ЦЕНТРЫ</p>
-          </div>
-          <div class="building-item">
-            <img src="img/building-4.png" alt="img" class="building__img" />
-            <p class="building-item__text">ПРОИЗВОДСТВА/СКЛАДЫ</p>
-          </div>
-        </div>
-      </div>
-      <div class="features">
-        <div class="features-info">
-          <h1 class="title-1_sea-light title-1">
-            СКОНЦЕНТРИРУЙТЕСЬ <br />
-            НА ГЛАВНОМ
-          </h1>
-          <p class="features-info__text">
-            Всe вопросы по управлeнию и обслуживанию <br />
-            нeдвижимости и оборудования “ПРОФРЕМОНТ” <br />
-            бeрeт на сeбя.
-          </p>
-          <div class="detail">
-            <hr class="detail__hr" />
-            <div class="detail__block">
-              <h1 class="title-1_sea-light title-1">150</h1>
-              <p class="detail__text">
-                Более 150 специалистов различного <br />
-                профиля собственноно штата
-              </p>
-            </div>
-            <hr class="detail__hr" />
-            <div class="detail__block">
-              <h1 class="title-1_sea-light title-1">600</h1>
-              <p class="detail__text">
-                Более 600 реализованных <br />
-                проектов
-              </p>
-            </div>
-            <hr class="detail__hr" />
-            <div class="detail__block-3">
-              <h1 class="title-1_sea-light title-1">>500т. м²</h1>
-              <hr class="detail__hr" />
-            </div>
-          </div>
-        </div>
-        <div class="features-img">
-          <img
-            src="img/main-part-img.png"
-            alt="img"
-            class="features-img__block"
-          />
-        </div>
-        <div class="low-part">
-          <div class="low-part__block">
-            <h1 class="low-part__title title-1_sea-light title-1">
-              МЫ ПРЕДЛАГАЕМ
-            </h1>
-            <div class="offers">
-              <div class="offer">
-                <img src="icons/icon-1.png" alt="img" class="offer__img" />
-                <p class="offer__text">
-                  Прозрачную систему <br />
-                  формирования <br />
-                  затрат
-                </p>
-              </div>
-              <div class="offer">
-                <img src="icons/icon-2.png" alt="img" class="offer__img" />
-                <p class="offer__text">
-                  Непрерывный <br />
-                  контроль систем <br />
-                  жизнеобеспечения
-                </p>
-              </div>
-              <div class="offer">
-                <img src="icons/icon-3.png" alt="img" class="offer__img" />
-                <p class="offer__text">
-                  Предупреждение <br />
-                  аварийных <br />
-                  ситуаций
-                </p>
-              </div>
-              <div class="offer">
-                <img
-                  src="icons/icon-4.png"
-                  alt="img"
-                  class="offer__img-4 offer__img"
+        <div class="main-form">
+          <form class="form">
+            <div class="form-1">
+              <div>
+                <div class="form__text">Логин</div>
+                <input
+                  type="text"
+                  class="check"
+                  placeholder="Логин"
+                  data-rule="name"
                 />
-                <p class="offer__text">
-                  Снижение <br />
-                  издержек <br />
-                  эксплуатации
+              </div>
+              <div>
+                <div class="form__text">Фамилия</div>
+                <input
+                  type="text"
+                  class="check"
+                  placeholder="Фамилия"
+                  data-rule="name"
+                />
+              </div>
+              <div>
+                <div class="form__text">E-mail</div>
+                <input
+                  type="text"
+                  class="check"
+                  placeholder="E-mail"
+                  data-rule="name"
+                />
+              </div>
+              <div>
+                <div class="form__text">Новый пароль</div>
+                <input
+                  type="text"
+                  class="check"
+                  placeholder="Введите новый пароль"
+                  data-rule="name"
+                />
+              </div>
+              <button class="btnSend" type="submit">Сохранить</button>
+            </div>
+            <div class="form-2">
+              <div>
+                <div class="form__text">Имя *</div>
+                <div>
+                  <input type="text" class="check" placeholder="Имя" />
+                </div>
+                <div class="error-message"></div>
+                <div class="form__text">Отчество</div>
+                <div>
+                  <input type="text" class="check" placeholder="Отчество" />
+                </div>
+              </div>
+              <div>
+                <div class="form__text">Телефон</div>
+                <input type="text" class="check" placeholder="Телефон" />
+              </div>
+              <div>
+                <div class="form__text">Подтвердить пароль</div>
+                <input
+                  type="text"
+                  class="check"
+                  placeholder="Подтвердите пароль"
+                />
+              </div>
+              <button class="btnSend-2 btnSend" type="submit">Сохранить</button>
+            </div>
+          </form>
+          <div class="basket">
+            <div class="element">
+              <img src="img/basket-item.svg" alt="img" class="element__img" />
+              <div class="element__text">
+                Саше бокс PROtein, 450 гр, 3 вкуса
+              </div>
+              <div class="price">
+                <p class="price__text">900 ₽</p>
+                <div class="amount">
+                  <div class="amount__item minus">-</div>
+                  <div type="number" class="amount__item num">1</div>
+                  <div class="amount__item plus">+</div>
+                </div>
+                <p class="price__text" id="price">900 ₽</p>
+                <img
+                  src="icons/close-icon.png"
+                  alt="icon"
+                  class="basket__close"
+                />
+              </div>
+            </div>
+            <p class="basket__text basket__text-1">
+              * От 2000 ₽ доставка бесплатно. До 2000 ₽ - 300 ₽
+            </p>
+            <p class="basket__text basket__text-2">
+              * Стоимость доставки в удаленные регионы РФ рассчитывается
+              дополнительно
+            </p>
+            <div class="promo">
+              <div class="promo__up">
+                <p class="promo__text">Промокод</p>
+                <p class="promo__price">Итог: 1 200 ₽</p>
+              </div>
+              <div class="promo__low">
+                <input
+                  type="text"
+                  class="promo__check"
+                  placeholder="Введите промокод"
+                />
+                <button class="promo__btn">Применить</button>
+                <button class="promo__btn-2" type="submit">Заказать</button>
+              </div>
+            </div>
+          </div>
+          <form class="feedback">
+            <div class="feedback-1">
+              <div>
+                <div class="feedback__text">Имя *</div>
+                <input
+                  type="text"
+                  class="check"
+                  placeholder="Введите имя"
+                  data-rule="name"
+                />
+                <div class="error-message"></div>
+              </div>
+              <div>
+                <div class="feedback__text">Телефон *</div>
+                <input
+                  type="tel"
+                  class="check"
+                  placeholder="Введите телефон"
+                  data-rule="name"
+                />
+                <div class="error-message"></div>
+              </div>
+              <div>
+                <div class="feedback__text">E-mail *</div>
+                <input
+                  type="text"
+                  class="check"
+                  placeholder="E-mail"
+                  data-rule="name"
+                />
+                <div class="error-message"></div>
+              </div>
+              <div class="feedback__letters">
+                <img src="img/letters.svg" alt="img" />
+              </div>
+              <label class="checked">
+                <input type="checkbox" class="checkbox" />
+                <span class="checker"></span>
+                <p class="checked__text">
+                  Согласие на обработку персональных данных <br />
+                  в соответствии с политикой <br />
+                  конфиденциальности
                 </p>
+              </label>
+            </div>
+            <div class="feedback-2">
+              <div>
+                <div class="feedback__text">Ваш вопрос</div>
+                <div>
+                  <input
+                    type="text"
+                    class="feedback-2__check"
+                    placeholder=""
+                    data-rule="name"
+                  />
+                  <div class="error-message"></div>
+                </div>
+              </div>
+              <div>
+                <div class="feedback__text">Введите символы с картинки *</div>
+                <input
+                  type="text"
+                  class="check"
+                  placeholder=""
+                  data-rule="name"
+                />
+                <div class="error-message"></div>
+              </div>
+              <button class="btnSend feedback__btn" type="submit">
+                Отправить
+              </button>
+            </div>
+          </form>
+          <div class="order">
+            <div class="points">
+              <div class="point">№ заказа</div>
+              <div class="point">Дата заказа</div>
+              <div class="point">Кол-во</div>
+              <div class="point">Цена</div>
+              <div class="point">Статус</div>
+            </div>
+            <div class="items">
+              <div class="new-item">
+                <div class="new-item-1">13988</div>
+                <div class="new-item-2">18.07.2023</div>
+                <div class="new-item-3">1</div>
+                <div class="new-item-4">1 200 ₽</div>
+                <div class="new-item-5">Ожидается оплата</div>
+                <div class="new-item__btn">
+                  <img src="icons/button.png" alt="icon" />
+                </div>
+                <div class="new-item__btn-2">
+                  <img src="icons/button-2.png" alt="icon" class="item__img" />
+                </div>
+                <div class="wrapper">
+                  <div class="wrapper__line"></div>
+                  <p class="wrapper__text-gray">Информация о пользователе</p>
+                  <div class="wrapper__inform inform">
+                    <div class="inform__left">
+                      <p class="wrapper__text-white">
+                        Тестовалова Татьяна Андреевна
+                      </p>
+                      <p class="wrapper__text-white wrapper__text-white-2">
+                        Адрес доставки (город, улица, дом)
+                      </p>
+                    </div>
+                    <div class="inform__right">
+                      <p class="wrapper__text-white">8 (918) 144 51 12</p>
+                      <p class="wrapper__text-white wrapper__text-white-2">
+                        tata@mail.ru
+                      </p>
+                    </div>
+                  </div>
+                  <div class="wrapper__line"></div>
+                  <p class="wrapper__text-gray">Содержимое заказа</p>
+                  <div class="wrapper__inform inform">
+                    <div class="inform__left">
+                      <p class="wrapper__text-white">
+                        Саше бокс PROtein, 450 гр, 3 вкуса, 1 шт
+                      </p>
+                      <p class="wrapper__text-white wrapper__text-white-2">
+                        Общий вес
+                      </p>
+                      <p class="wrapper__text-white wrapper__text-white-2">
+                        Стоимость доставки
+                      </p>
+                      <p class="wrapper__text-white wrapper__text-white-2">
+                        Итого
+                      </p>
+                      <p class="wrapper__text-white wrapper__text-yellow">
+                        Повторить заказ
+                      </p>
+                    </div>
+                    <div class="inform__right">
+                      <p class="wrapper__text-white">900 ₽</p>
+                      <p class="wrapper__text-white wrapper__text-white-2">
+                        0.15 кг
+                      </p>
+                      <p class="wrapper__text-white wrapper__text-white-2">
+                        300 ₽
+                      </p>
+                      <p class="wrapper__text-white wrapper__text-white-2">
+                        1 200 ₽
+                      </p>
+                      <p class="wrapper__text-white wrapper__text-yellow">
+                        Отменить заказ
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-1">13967</div>
+                <div class="item-2">13.07.2023</div>
+                <div class="item-3">1</div>
+                <div class="item-4">2 398 ₽</div>
+                <div class="item-5">Оплачен</div>
+                <div class="item__btn">
+                  <img src="icons/button.png" alt="icon" class="item__img" />
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-1">13952</div>
+                <div class="item-2">12.07.2023</div>
+                <div class="item-3">1</div>
+                <div class="item-4">4 330 ₽</div>
+                <div class="item-5">Оплачен</div>
+                <div class="item__btn">
+                  <img src="icons/button.png" alt="icon" class="item__img" />
+                </div>
               </div>
             </div>
+            <p class="order__text">Посмотреть историю заказов</p>
           </div>
         </div>
-      </div>
-      <div class="preparation">
-        <h1 class="preparation__title-1 title-1_sea-light title-1">
-          ПОДГОТОВКА КП
-        </h1>
-        <h3 class="preparation__title-2 title-3">
-          начинается с изучения потребностей заказчика
-        </h3>
-        <h1 class="preparation__title-3 title-1_sea-light title-1">
-          ИССЛЕДУЕТСЯ:
-        </h1>
-        <div class="objects">
-          <div class="object">
-            <img src="img/obj-1.png" alt="img" class="object__img" />
-            <p class="object__text">Площадь объекта</p>
-          </div>
-          <div class="object">
-            <img src="img/obj-2.png" alt="img" class="object__img" />
-            <p class="object__text">
-              Технологическая <br />
-              насыщеность
-            </p>
-          </div>
-          <div class="object">
-            <img src="img/obj-3.png" alt="img" class="object__img" />
-            <p class="object__text">
-              Текущее состояние <br />
-              объекта
-            </p>
-          </div>
-          <div class="object">
-            <img src="img/obj-4.png" alt="img" class="object__img" />
-            <p class="object__text">
-              Объем и <br />
-              периодичность работ
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="clients">
-        <h1 class="clients__title title-1">НАШИ КЛИЕНТЫ</h1>
-        <div class="slider">
-          <div id="left" class="slider-arrow">
-            <img src="img/arrow-1.png" alt="img" />
-          </div>
-          <ul class="carousel">
-            <li class="firm">
-              <div class="firm__img">
-                <img src="img/firm-5.png" alt="firm" />
-              </div>
-            </li>
-            <li class="firm">
-              <div class="firm__img">
-                <img src="img/firm-1.png" alt="firm" />
-              </div>
-            </li>
-            <li class="firm">
-              <div class="firm__img">
-                <img src="img/firm-2.png" alt="firm" />
-              </div>
-            </li>
-            <li class="firm">
-              <div class="firm__img">
-                <img src="img/firm-3.png" alt="firm" />
-              </div>
-            </li>
-            <li class="firm">
-              <div class="firm__img">
-                <img src="img/firm-4.png" alt="firm" />
-              </div>
-            </li>
-          </ul>
-          <div id="right" class="slider-arrow">
-            <img src="img/arrow-2.png" alt="img" />
-          </div>
-        </div>
-        <div class="clients__map">
-          <img src="img/map-clients.png" alt="img" />
-        </div>
-        <div class="data">
-          <div class="data__object">
-            <hr class="data__hr" />
-            <div class="data__details">
-              <h1 class="title-1_sea-light title-1">1000</h1>
-              <p class="data__text">Более 1000 объектов</p>
-            </div>
-          </div>
-          <div class="data__object">
-            <hr class="data__hr" />
-            <div class="data__details">
-              <h1 class="title-1_sea-light title-1">5</h1>
-              <p class="data__text">Регионов России</p>
-            </div>
-          </div>
-          <div class="data__object">
-            <hr class="data__hr" />
-            <div class="data__details">
-              <h1 class="title-1_sea-light title-1">200</h1>
-              <p class="data__text">
-                Более 200 объектов на сервисном <br />
-                обслуживании
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="map">
-        <img src="img/map-place.png" alt="img" />
-      </div>
-      <div class="form">
-        <h1 class="form__title-1 title-1">НАПИСАТЬ НАМ</h1>
-        <h5 class="form__title-2">
-          Пригласить на бесплатную экспертизу безопасности объекта
-        </h5>
-        <input
-          class="form__input input-1 input"
-          type="text"
-          placeholder="ваше имя*"
-        />
-        <input
-          class="form__input input-2 input"
-          type="tel"
-          placeholder="Телефон*"
-        />
-        <div class="form__block">
-          <input
-            class="form__input input-3 input"
-            type="text"
-            placeholder="ваше сообщение*"
-          />
-          <button class="form__btn">отправить</button>
-        </div>
-        <label class="checked">
-          <input type="checkbox" class="checkbox" />
-          <span class="checker"></span>
-          <p class="checked__text">
-            Разрешаю обработку
-            <span class="checked__line-text checked__text"
-              >персональных данных</span
-            >
-          </p>
-        </label>
       </div>
       <div class="footer">
-        <h1 class="footer__title">
-          Мы предлагаем оптимальные по стоимости условия сотрудничества
-        </h1>
-        <div class="info">
-          <div class="info__text">
-            ©2023 ООО "Профремонт" <br /><span
-              class="info__line-text info__text"
-              >Политика конфиденциальности</span
-            >
-          </div>
-          <div class="elements">
-            <img src="icons/logo.png" alt="img" class="elements__logo" />
-            <div class="elements__icons">
-              <img src="icons/inst-logo.png" alt="img" />
-              <img src="icons/vk-logo.png" alt="img" />
-            </div>
-          </div>
+        <h1 class="title-1">О компании</h1>
+        <div class="footer__line"></div>
+        <div class="footer-nav">
+          <ul class="footer-nav__list">
+            <li class="footer-nav__item">
+              <a href="#" class="footer-nav__link">Производство</a>
+            </li>
+            <li class="footer-nav__item">
+              <a href="#" class="footer-nav__link">Продукция</a>
+            </li>
+            <li class="footer-nav__item">
+              <a href="#" class="footer-nav__link">Оплата/Доставка</a>
+            </li>
+            <li class="footer-nav__item">
+              <a href="#" class="footer-nav__link">Блог</a>
+            </li>
+            <li class="footer-nav__item">
+              <a href="#" class="footer-nav__link">Контакты</a>
+            </li>
+          </ul>
         </div>
+        <h3 class="title-3 footer__title-3">
+          ООО «Протеин» - новое, современное предприятие построенное в <br />
+          Республике Мордовия, в селе Рождествено. Это настоящий <br />
+          концентрат сывороточного белка - КСБ 80, который содержит только
+          <br />
+          натуральные компоненты и не имеет в своем составе никаких добавок
+        </h3>
+        <h4 class="title-4 footer__title-4">
+          ООО «СФЕРА», 431658, Республика Мордовия, Ичалковский район, с.
+          Рождествено, ул. Зеленая, д. 16, <br />
+          ИНН 1310187664, КПП131001001, ОГРН 1071310000585
+        </h4>
+        <p class="footer__yellow-text">Специальная оценка условий труда</p>
+        <div class="footer__web">
+          <h2 class="title-2">Социальные сети</h2>
+          <img src="icons/vk-icon.png" alt="icon" class="web-icon" />
+        </div>
+        <div class="footer__line"></div>
+        <p class="footer__text">© 2019-2023 ООО «Протеин»</p>
       </div>
     </div>
     <script src="js/script.js"></script>
